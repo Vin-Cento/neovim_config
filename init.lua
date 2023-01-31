@@ -7,6 +7,7 @@ require("keymap-config")
 require("filetype_rules")
 
 --> Base
+require("lsp-config")
 require("null-ls-config")
 require("ultisnip-config")
 require("nvim-tree-config")
@@ -38,5 +39,4 @@ require("github-config") --> github
 require("git-gutter-config") --> git sidebar
 
 --> Completion
-require("lsp-config.completion")
-require("lsp-config.language-servers")
+require("completion")

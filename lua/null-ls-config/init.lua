@@ -13,7 +13,7 @@ local sources = {
 	formatting.shellharden,
 	code_actions.shellcheck,
 	formatting.terrafmt,
-  formatting.pg_format,
+  formatting.sql_formatter,
 }
 
 null_ls.setup({
