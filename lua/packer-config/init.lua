@@ -15,6 +15,7 @@ return require("packer").startup(function()
 
 	--> MIDDLEWARE
 	use("williamboman/mason-lspconfig.nvim") --> bridge mason and lsp
+	use("jay-babu/mason-null-ls.nvim") --> bridge mason and lsp
 
 	--> Looks
 	use("romgrk/barbar.nvim") --> tabs
